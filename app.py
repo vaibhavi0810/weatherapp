@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 
-# Your API key
 api_key = '608b7680c5f1fd94cc00147dab8789e0'
 
 # Function to get weather data
@@ -37,5 +36,4 @@ if st.button('Get Weather'):
     else:
         st.write('City not found')
 
-# Run the app with:
-# streamlit run app.py
+
